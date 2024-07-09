@@ -651,6 +651,17 @@ files = [
 traitlets = "*"
 
 [[package]]
+name = "nbimporter"
+version = "0.3.4"
+description = "Import IPython notebooks as modules"
+optional = false
+python-versions = "*"
+files = [
+    {file = "nbimporter-0.3.4-py3-none-any.whl", hash = "sha256:14a4c37fd4a3e18ad5fba726d54f2e46b483dfe31c1f036682bb9ef259ab67a3"},
+    {file = "nbimporter-0.3.4.tar.gz", hash = "sha256:bc9bc803e7ba44ae9f7c6ec60cae2f4d1d509508feedd8c9e03a7949333bf16e"},
+]
+
+[[package]]
 name = "nest-asyncio"
 version = "1.6.0"
 description = "Patch asyncio to allow nested event loops"
@@ -1434,4 +1445,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12"
-content-hash = "b92c124f4a300b4571706d5f7bfdb405993c846bcd9fe9b30e79d7b00396457c"
+content-hash = "bb668e9de0a5685881526b51f81c5cb77f36ac19bf959c04b5835f0fdd032df7"
